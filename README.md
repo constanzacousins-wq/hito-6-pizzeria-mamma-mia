@@ -1,76 +1,37 @@
-# 🍕 Pizzería Mamma Mía — Hito 5
+# Pizzería Mamma Mía - Hito 6
+
+Proyecto desarrollado con **React y Vite** para el Bootcamp Full Stack JavaScript de Desafío Latam.
 
 ## Descripción
 
-Proyecto desarrollado para el Hito 5 del módulo React del Bootcamp Full Stack JavaScript de Desafío Latam.
-
-En esta etapa se implementa React Router para permitir la navegación entre las distintas páginas de la aplicación Pizzería Mamma Mía, sin necesidad de recargar el navegador.
-
-## Tecnologías utilizadas
-
-- React
-- JavaScript
-- React Router DOM v6
-- Vite
-- HTML y CSS
+En este hito se implementa **Context API** para manejar el carrito de compras y compartir su estado entre los componentes de la aplicación.
 
 ## Funcionalidades
 
-- Visualización del catálogo de pizzas.
-- Página de detalle de una pizza.
-- Formularios de registro e inicio de sesión.
-- Vista del carrito de compras.
-- Página de perfil de usuario.
-- Página de error 404 personalizada.
-- Navegación mediante React Router.
+- Visualización de pizzas desde una API.
+- Agregar pizzas al carrito desde Home.
+- Aumentar y disminuir cantidades.
+- Eliminar productos del carrito.
+- Calcular el total de la compra.
+- Mostrar el total actualizado en Navbar y Cart.
 
-## Rutas implementadas
+## Tecnologías
 
-| Ruta | Página |
-|---|---|
-| `/` | Home |
-| `/register` | Registro |
-| `/login` | Inicio de sesión |
-| `/cart` | Carrito |
-| `/pizza/p001` | Detalle de pizza |
-| `/profile` | Perfil de usuario |
-| `/404` | Página no encontrada |
-| Cualquier ruta inexistente | Página 404 |
+- React
+- JavaScript
+- CSS3
+- React Router DOM
+- Context API
+- Vite
 
-## Instalación y ejecución
-
-Clonar el repositorio e instalar las dependencias:
+## Instalación
 
 ```bash
 npm install
-```
-
-Iniciar el servidor de desarrollo:
-
-```bash
 npm run dev
 ```
 
-Abrir la dirección local indicada por Vite en el navegador.
-
-## Nota
-
-La autenticación y el cierre de sesión todavía no están implementados. Se utiliza información estática según los requerimientos del Hito 5.
-
-
-## Demo del proyecto
-
-Puedes ver la Pizzería Mamma Mía funcionando aquí:
-
-🍕 [Ver demo en GitHub Pages](https://constanzacousins-wq.github.io/hito-5-pizzeria-mamma-mia/)
-
-## Repositorio
-
-[Ver código en GitHub](https://github.com/constanzacousins-wq/hito-5-pizzeria-mamma-mia)
-
-
 ## Autoría
 
-Proyecto académico desarrollado para Desafío Latam.
-
-**Bootcamp Full Stack JavaScript — Módulo React — Hito 5.**
+**Constanza Cousins**  
+Bootcamp Full Stack JavaScript — Desafío Latam.
