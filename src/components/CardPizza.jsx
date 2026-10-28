@@ -1,4 +1,11 @@
-const CardPizza = ({ name, price, ingredients, img }) => {
+
+const CardPizza = ({
+  name,
+  price,
+  ingredients,
+  img,
+  addToCart,
+}) => {
   return (
     <div className="pizza-card">
       <img src={img} alt={name} />
@@ -18,7 +25,10 @@ const CardPizza = ({ name, price, ingredients, img }) => {
 
         <div className="card-buttons">
           <button>Ver Más 👀</button>
-          <button>Añadir 🛒</button>
+
+          <button onClick={addToCart}>
+            Añadir 🛒
+          </button>
         </div>
       </div>
     </div>
