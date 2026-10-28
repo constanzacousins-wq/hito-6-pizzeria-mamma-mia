@@ -31,6 +31,13 @@ npm install
 npm run dev
 ```
 
+## Demo
+
+Puedes ver la aplicación funcionando aquí:
+
+https://constanzacousins-wq.github.io/hito-6-pizzeria-mamma-mia/
+
+
 ## Autoría
 
 **Constanza Cousins**  
